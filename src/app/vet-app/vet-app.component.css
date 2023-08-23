@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 500px;
+    height: 150px;
+    background-color: blue;
+    border: 3px solid crimson;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.text{
+    color: #fff;
+}
+
+main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
